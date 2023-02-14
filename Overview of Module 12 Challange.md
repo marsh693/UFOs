@@ -1,0 +1,15 @@
+Overview of Module 12 Challange
+--------------------------------
+The purpose of the Module 12 Challange was to create an organized table using the data.js file, index.html, and JavaScript.  The table is organized to show UFO sightings by the date of sighting, the city, state, and country where the sighting occured, how long the sighting was and a brief description of what occured.  Next to the table there are entry fields so the user may be able to filter for specific sightings based on the information they were to enter.
+
+Results of Module 12 Challenge
+-------------------------------
+To access the webpage containing the table, I had to install an extension on my VSCode program to run the index.html file through a live server.  After that was installed I located the file through local host 5500 in the web folder which pulled up the webpage containing the organized table and filter search.  To create a filtered table, the user would enter the information they are looking for within the table, such as the date, city, state, country, or shape.  There are generic examples in each filter box in case the user was unaware of what information could be entered to filter the table. Included in the pictures folder there are two images of the table.  The first image shows how the user would see the table when loading the page.  The second image shows the filter section of the page where the user can input the desired infomation on which sighting they are looking for.
+
+Summary of Module 12 Challenge
+-------------------------------
+One drawback of the webpage from this module challenge is the syntax of information to be entered by the user.  By this I mean that the filter section for the table only accepts the input from the user using lowercase letters.  If the user were to capitalize any letter within the city, state, or country abbreviation when filtering, the table would not return any results.  One way that this can be fixed is by altering the code within the data.js file that contains the information about the sightings.  If we were to capitalize the city, state, country within that section, the user would be able to capitalize their entries.  On the other hand this would create a drawback for the opposite situation.  If the user were to not capitalize their entries the table would not return any results.
+
+One recommendation that I thought of while working through this module challenge would be to add a duration of sighting section to the filter search.  With how the webpage is currently set up the user cannot search for specific duration times of UFO sightings.  By adding this into the filter search, it would allow the user to see and compare sightings of similar time duration across the globe.  
+
+Another recommendation that I thought of would be to have a second part of the webpage contain a map that shows the location of each sighting.  Though this would require more work to display the map of locations it would be helpful for the user to see the location of sightings visually if they are unfamiliar of where certain cities/states/countries are located.
